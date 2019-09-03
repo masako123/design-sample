@@ -1,0 +1,13 @@
+.task-item-body {
+  color: red;
+  background: #fff;
+  list-style: none;
+  height: 46px;
+  border-radius: 3px;
+  display: flex;
+  padding-left: 4px;
+  padding-right: 4px;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;  
+}
