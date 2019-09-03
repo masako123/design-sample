@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+.side {
+  width: 300px;
+  background: #fea;
+  flex: 0 0 200px;
+}
+
+.main {
+  background: #fcc;
+  flex: 1 1 auto;
+}
+ 
