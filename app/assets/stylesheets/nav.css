@@ -1,0 +1,60 @@
+.nav-bar {
+  height: 80px;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+/* scssでかけるけど、cssで表現する */
+.nav-bar > .nav-left {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+/* scssでかけるけど、cssで表現する */
+.nav-bar .nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13.3px;
+}
+
+/* scssでかけるけど、cssで表現する */
+.nav-bar .nav-items > li {
+  padding: 33px 0px;
+  margin: 0 5px;
+  color: #484848;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1.85px solid transparent;
+}
+
+.nav-bar .nav-items > li > a {
+  padding: 33px 12px;
+}
+
+.nav-bar .nav-items > li:last-child {
+  margin-right: 25px;
+  padding: 33px 12px;
+  position: relative;
+}
+
+/* ホバー時に下線を表示させる */
+.nav-bar .nav-items > li:hover {
+  cursor: pointer;
+  border-bottom: 1.85px solid #484848;
+}
+
+/* マテリアルアイコン呼ぶ例 */
+.nav-bar i:before {
+  font-size: 20px;
+  color: black;
+  content: "shopping_cart";    
+  font-family: "Material Icons";
+}
